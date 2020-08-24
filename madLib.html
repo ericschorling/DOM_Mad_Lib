@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maddening Libs</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+        <link rel="stylesheet" href="css/madLib.css">
+    </head>
+    <body>
+        <header>
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                    <h1 class="title">
+                        Maddening Libs
+                    </h1>
+                    <h2 class="subtitle">
+                        A choose your own advendture madlib experience
+                    </h2>
+                    </div>
+                </div>
+
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                    <div id="navBar" class="navbar-menu">
+                        <div class="navbar-start">
+                            <a class="navbar-item">
+                            Home
+                            </a>
+                    
+                            <a class="navbar-item">
+                            Documentation
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </header>
+
+        <main class="columns">
+            <div class="column is-1">
+            </div>
+            <div class="column is-4 form">
+                <div  id="entryArea">
+                    <!-- <div class="field">
+                        <label class="label">Describe your Adventure</label>
+                        <div class="control">
+                            <input id= "nounInput" class="input" type="text" placeholder="Text input">
+                        </div>
+                    </div> -->
+                </div>
+                <!-- <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                    <div class="select">
+                        <select>
+                        <option>Select dropdown</option>
+                        <option>With options</option>
+                        </select>
+                    </div>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                    <textarea class="textarea" placeholder="Textarea"></textarea>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="field">
+                    <div class="control">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                    </label>
+                    </div>
+                </div> -->
+                
+                <!-- <div class="field">
+                    <div class="control">
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                    </label>
+                    </div>
+                </div> -->
+                
+                <div class="field is-grouped">
+                    <div class="control" >
+                        <button id="submit" class="button is-link">Submit</button>
+                    </div>
+                    <div class="control">
+                        <button id ="cancel" class="button is-link is-light">Cancel</button>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-1">
+            </div>
+            <div class="column is-5 message_cont">
+                <article id="messageContainer" class="message">
+                    <div class="message-header">
+                        <p>Our Story Begins</p>
+                        <!-- <button class="delete" aria-label="delete"></button> -->
+                    </div>
+                    <div class="message-body" id="message">
+                        Lorem ipsum dolor <input class="input is-danger messInput" type="text" placeholder="" value="noun" id="noun" readonly> amet, consectetur adipiscing elit. <strong>Pellentesque risus mi</strong>, <input class="input is-danger messInput" type="text" placeholder="" value="noun" id="noun" readonly>  quis placerat ut, porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus <input class="input is-danger messInput" type="text" placeholder="" value="adj" id="adj" readonly> , et dictum <a>felis venenatis</a> efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus. Donec sodales, arcu et sollicitudin porttitor, <input class="input is-danger messInput" type="text" placeholder="" value="noun" id="noun" readonly>  urna tempor ligula, id porttitor mi magna a neque. Donec dui urna, vehicula et sem eget, facilisis <input class="input is-danger messInput" type="text" placeholder="" value="verb" id="verb" readonly>  sem.
+                    </div>
+                </article>
+            </div>
+            <div class="column is-1"></div>
+        </main>
+        <script src="js/madlib.js"></script>
+    </body>
+</html>
